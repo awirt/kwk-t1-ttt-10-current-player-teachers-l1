@@ -12,14 +12,13 @@ end
 
 def current_player(board)
   turn = turn_count(board)
-  
-  if turn.even?
-    return "X"
-  else
-    return "O"
-  end
-  
+
+  turn.even?=="TRUE" return "X" : return "O"
+
 end
   
-  
-  
+# if turn.even?
+#    return "X"
+#  else
+#    return "O"
+#  end
