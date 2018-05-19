@@ -15,11 +15,11 @@ def current_player(board)
   odd_even = turn % 2
   
   if turn == 0
-    return "X"
+    return "O"
   end
   
   else
-    return "O"
+    return "X"
   end
 end
   
