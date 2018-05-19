@@ -14,7 +14,7 @@ def current_player(board)
   turn = turn_count(board)
   odd_even = turn % 2
   
-  if turn == 0
+  if odd_even == 0
     return "O"
   
   else
