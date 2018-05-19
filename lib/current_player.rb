@@ -8,4 +8,6 @@ def turn_count(board)
     end
   end
   
+  puts counter
+  
 end
