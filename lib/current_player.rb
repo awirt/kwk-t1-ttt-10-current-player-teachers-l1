@@ -14,8 +14,6 @@ def current_player(board)
   turn = turn_count(board)
   odd_even = turn % 2
   
-  puts odd_even
-  
   if odd_even == 0
     puts "O"
     return "O"
@@ -25,8 +23,6 @@ def current_player(board)
     return "X"
   end
 end
-
-current_player([" ", " ", "X"])
   
   
   
