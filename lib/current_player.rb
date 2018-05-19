@@ -4,10 +4,10 @@ def turn_count(board)
   
   board.each do |space|
     if (space != " " || space != "")
+      puts counter
       counter += 1
+      puts counter
     end
   end
-  
-  return counter
   
 end
