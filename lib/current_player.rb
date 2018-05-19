@@ -17,9 +17,11 @@ def current_player(board)
   puts odd_even
   
   if odd_even == 0
+    puts "O"
     return "O"
   
   else
+    puts "X"
     return "X"
   end
 end
