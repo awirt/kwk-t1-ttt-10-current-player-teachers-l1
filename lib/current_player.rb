@@ -12,7 +12,8 @@ end
 
 def current_player(board)
   turn = turn_count(board)
-  odd_even = turn % 2
+  
+  if turn.even? 
   
   if odd_even == 0
     return "X"
