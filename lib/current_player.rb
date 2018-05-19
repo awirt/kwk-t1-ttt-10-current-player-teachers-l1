@@ -4,7 +4,7 @@ def turn_count(board)
     
     if (space != " " || space != "")
       counter = 0
-      counter += counter
+      counter += 1
     end
     
     return counter
